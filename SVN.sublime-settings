@@ -1,0 +1,24 @@
+{
+  // The SSH connection options for svn+ssh working copies.
+  // The "*" key is set as the default, with all other keys being
+  // the folder path to a working copy root.
+  //
+  // Valid subkeys include "username" and "ssh_key".
+  //
+  // On OS X and Linux the ssh binary on your machine is used in combination
+  // with any running ssh-agent. On Windows, plink.exe (part of PuTTY) is
+  // included, and can be used with Pageant for a key agent. Thus, on Windows,
+  // SSH keys need to be stored in the .ppk format using PuTTYgen. If no
+  // key agent is being used, the full file path to an SSH key can be
+  // specified via the "ssh_key" option.
+  "svn_ssh_options": {
+    // "*": {
+    //     "username": "john",
+    //     "ssh_key": "C:\\Users\\username\\Documents\\mykey.ppk"
+    // },
+    // "/path/to/working_copy": {
+    //     "username": "will",
+    //     "ssh_key": "/Users/username/.ssh/id_rsa"
+    // }
+  }
+}
