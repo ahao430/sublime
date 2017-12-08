@@ -1,0 +1,7 @@
+{
+  "enable_add_template_on_save": true,
+  "syntax_when_not_match": "HTML",
+  "Default": {
+    "email": "ahao430@gmail.com"
+  }
+}

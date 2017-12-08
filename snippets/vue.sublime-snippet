@@ -1,0 +1,23 @@
+<snippet>
+  <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
+  <content><![CDATA[
+====================
+<template>
+	${1}
+</template>
+
+<script>
+	${2}
+</script>
+
+<style lang="${3:scss}" scoped>
+	${4}
+</style>
+====================
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>vue</tabTrigger>
+  <description>vue</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>text.vue</scope>
+</snippet>
